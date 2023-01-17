@@ -1,0 +1,2 @@
+- name: espressif idf build
+  uses: sebastianPsm/esp-idf-ci-action@1
