@@ -12,7 +12,5 @@ jobs:
       # uses: espressif/esp-idf-ci-action@8cd22ae10042fadc37890e81e9988a9113e7b506
       uses: espressif/esp-idf-ci-action@v1.1.0
       with:
-        # Version of ESP-IDF docker image to use
-        esp_idf_version: latest# optional, default is latest
-        # ESP32 variant to build for
-        target: esp32# optional, default is esp32
+        esp_idf_version: latest
+        target: esp32
